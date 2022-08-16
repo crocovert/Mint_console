@@ -58,12 +58,12 @@ namespace Mint_console
             //MessageBox.Show("Lecture terminée");
 
             int avance = 0;
+            int ctop = Console.CursorTop;
+            int cleft = Console.CursorLeft;
             foreach (List<Trip> list_trip in matrice.trips.Values)
             {
                 avance++;
                 NetworkInit(reseau);
-                int ctop = Console.CursorTop;
-                int cleft = Console.CursorLeft;
                 Console.SetCursorPosition(cleft, ctop);
                 Console.Write("Destinations: " + 100 * avance / matrice.trips.Count + "/" + matrice.trips.Count);
                 Link pivot = new Link();
