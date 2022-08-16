@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Mint_console": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\\\Mint\\\\res_winnipeg.txt D:\\\\Mint\\\\mat_winnipeg.txt D:\\\\temp\\\\sortie.txt  D:\\\\temp\\\\tt_param.txt "
+    }
+  }
+}

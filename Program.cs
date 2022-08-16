@@ -42,7 +42,8 @@ namespace Mint_console
             reseau.cboa = float.Parse(parametres.ReadLine());
             reseau.output_strategies = bool.Parse(parametres.ReadLine());
             reseau.alg_parameter= float.Parse(parametres.ReadLine());
-            float parametre = float.Parse(parametres.ReadLine());
+            //float parametre = float.Parse(parametres.ReadLine());
+            parametres.Close();
 
 
             System.IO.StreamWriter fich_stg = new System.IO.StreamWriter(nom_fichier + "_stg.txt", false);
